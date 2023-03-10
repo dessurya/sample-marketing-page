@@ -30,6 +30,16 @@ body{
     width: 20vw;
 }
 
+.navbar-toggler{
+    color: white;
+    border-color: white;
+    background-color: white;
+}
+
+.navbar-toggler-icon{
+    filter: brightness(100%) saturate(0%);
+}
+
 @media only screen and (max-width: 930px) {
     #floating-anton{
         right: -1.5vw;
