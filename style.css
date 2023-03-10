@@ -1,0 +1,77 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Rubik', sans-serif;
+}
+
+.navbar ul.navbar-nav li a{
+    color: white;
+}
+
+.navbar ul.navbar-nav li a:hover{
+    color: #157347;
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    width: 4rem !important;
+    height: 4rem !important;
+}
+
+#floating-anton{
+    position: fixed;
+    top: 15vh;
+    right: 2.5vw;
+}
+
+#floating-anton .card{
+    width: 20vw;
+}
+
+@media only screen and (max-width: 930px) {
+    #floating-anton{
+        right: -1.5vw;
+        top: unset;
+        bottom: 7vh;
+    }
+
+    #floating-anton .card{
+        width: 30vw;
+    }   
+
+    nav.navbar a, nav.navbar .btn-success{
+        font-size: 10pt;
+    }
+
+    #Rekomendasi .cars .card-title{
+        font-size: 12pt;
+    }
+
+    #Rekomendasi .cars .card-body{
+        font-size: 12pt;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    body{
+        padding-top: 4.6rem;
+    }
+
+    footer .container{
+        padding-bottom: 8vh !important;
+    }
+
+    #floating-wa{
+        position: fixed;
+        bottom: 3vh;
+    }
+
+    .navbar>.container, .navbar>.container-fluid, .navbar>.container-lg, .navbar>.container-md, .navbar>.container-sm, .navbar>.container-xl, .navbar>.container-xxl{
+        justify-content:inherit;
+    }
+}
+
+
+@media only screen and (max-height: 500px) {
+    #floating-anton img{
+        display: none;
+    }
+}
